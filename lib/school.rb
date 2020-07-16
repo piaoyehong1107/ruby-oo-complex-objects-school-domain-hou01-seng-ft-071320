@@ -25,8 +25,8 @@ def grade(grade)
 end
 
 def sort
-@roster[grade]=@roster[grade].sort
-@roster
+  @roster.each{|key,value|
+   @roster[key]=value.sort}
+  @roster
 end
-
 end
