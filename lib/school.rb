@@ -27,6 +27,6 @@ end
 def sort
   @roster.each{|key,value|
    @roster[key]=value.sort}
-  @roster
+@roster
 end
 end
