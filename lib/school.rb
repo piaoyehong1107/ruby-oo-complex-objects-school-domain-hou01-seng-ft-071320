@@ -23,8 +23,10 @@ end
 def grade(grade)
   @roster[grade]
 end
+
 def sort
 @roster[grade]=@roster[grade].sort
 @roster
 end
+
 end
